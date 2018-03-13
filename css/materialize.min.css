@@ -3,12 +3,10 @@ body {
     min-height: 100vh;
     flex-direction: column;
   }
-
 .page-footer {
-   position: fixed;
    width: 100%;
    height: 30%;
-   margin-top: 30%;
+   margin-top: 1%;
   }
 bannerRow{
     margin: 40px; 
@@ -37,15 +35,29 @@ bannerRow{
 .nav-wrapper{
     margin: 0 auto;
     width: 70%;
+    font-family: 'Indie Flower', cursive;
+    
 }
 #search-bar{
     width: 25%;
+    margin:auto;
+    margin-top:10%;
+    margin-bottom:10%;
 }
 .navButtons{
     text-align: center;
 }
 .footer-copyright{
     text-align: center;
-    margin: 0 auto;
+    margin: auto;
     padding: 40px 40px;
+}
+.carousel{
+    width: 50%;
+    margin: auto;
+}
+a.brand-logo{
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+
 }

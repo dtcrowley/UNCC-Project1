@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+</head>
+<body>
+      
+        <div class="jumbotron" style="background-color: #FF5252; color: black">
+            <h1 class="text-center"><b>Contact Us</b></h1>
+            <h3 class="text-center">We Would Love to Hear From You!</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+    
+            
+            <!-- Contact Us -->
+    <div class= "container">
+        <div class="panel panel-primary">
+            <div class="panel-heading" style= "background-color: #00b8d4; color: black">
+                <h3 class="panel-title"><strong>Please fill out the below to contact us.</strong></h3>
+            </div>
+            <div class="panel-body">
+            <!-- Entry Form -->
+            <form>
+                <div class="form-group" style= "background-color: #00b8d4; color: black">
+                    <label for="name-input">Name</label>
+                    <input class="form-control" id="name-input" type="text">  
+                </div>
+                <div class="form-group">
+                    <label for="email-input">Email</label>
+                    <input class="form-control" id="email-input" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="comments-input">Questions or Comments</label>
+                    <input class="form-control" id="start-input" type="text">
+                </div>
+                <button class="btn btn-primary" id="add-train-btn" style= "background-color: #00b8d4" type="submit">Submit</button>
+            </form>
+            </div>
+        </div>    
+    </div>
+            <!-- JavaScript -->
+            <script src="logic.js"></script>
+</body>
+</html>
