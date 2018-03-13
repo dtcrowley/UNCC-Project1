@@ -13,6 +13,7 @@ bannerRow{
     text-align: center;
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
+    color: white;
 }
 .row2{
     align-content: center;
@@ -34,4 +35,5 @@ bannerRow{
 .footer-copyright{
     text-align: center;
     margin: 0 auto;
+    padding: 40px 40px;
 }
