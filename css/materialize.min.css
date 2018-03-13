@@ -1,0 +1,37 @@
+bannerRow{
+    margin: 40px; 
+}
+.center-align{
+    background-color: lightcoral;
+    margin: 0;
+    height: 150px;
+    padding: 61px 0px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+}
+.row1{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+.row2{
+    align-content: center;
+}
+.container1{
+    text-align: center;
+    padding: 0 20px;
+}
+.nav-wrapper{
+    margin: 0 auto;
+    width: 70%;
+}
+#search-bar{
+    width: 25%;
+}
+.navButtons{
+    text-align: center;
+}
+.footer-copyright{
+    text-align: center;
+    margin: 0 auto;
+}
