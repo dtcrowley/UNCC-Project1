@@ -35,10 +35,16 @@ bannerRow{
     width: 70%;
     
 }
+.input-field{
+    width: 100%;
+}
 .btn{
+    margin-top: 10px;
+    margin-left: 50px;
     margin-bottom: 25px;
     border-bottom: 50px;
-    float: left;
+    /* float: left; */
+
 }
 #search{
     margin-bottom: 0px;
@@ -50,7 +56,7 @@ bannerRow{
 }
 .nav-wrapper{
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
     height: 100px;
     font-family: 'Indie Flower', cursive;
 }
@@ -76,7 +82,7 @@ bannerRow{
     font-family: 'Indie Flower', cursive;
     font-size: 50px;
     margin: 0 auto;
-    width: 70%;
+    width: 450px;
     height: 100px;
     color: white;
 }
@@ -104,6 +110,66 @@ bannerRow{
 .slider .indicators {
     bottom: 60px;
     z-index: 100;
+}
+h5{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+#videoOne {
+    transform:scale(1);
+    transition: 0.5s transform;
+} 
+#videoOne:hover {
+    transform: scale(1.1);
+    transition: 0.5s transform;
+} 
+#videoTwo {
+    transform:scale(1);
+    transition: 0.5s transform;
+    
+} 
+#videoTwo:hover {
+    transform: scale(1.1);
+    transition: 0.5s transform;
+} 
+#videoThree {
+    transform:scale(1);
+    transition: 0.5s transform;
+    
+} 
+#videoThree:hover {
+    transform: scale(1.1);
+    transition: 0.5s transform;
+} 
+#videoFour {
+    transform:scale(1);
+    transition: 0.5s transform;
+        
+} 
+#videoFour:hover {
+    transform: scale(1.1);
+    transition: 0.5s transform;
+}
+#videoFive {
+    transform:scale(1);
+    transition: 0.5s transform;
+} 
+#videoFiver:hover {
+    transform: scale(1.1);
+    transition: 0.5s transform;
+}  
+#videoSix {
+    transform:scale(1);
+    transition: 0.5s transform;
+} 
+#videoSix:hover {
+    transform: scale(1.1);
+    transition: 0.5s transform;
+}      
+#clip-display-bar{
+    overflow: auto;
+    white-space: nowrap;
 }
 .poster{
     margin-left: 500px;
@@ -157,4 +223,9 @@ bannerRow{
     font-family: 'Indie Flower', cursive;
     color: teal;
     text-align: center;
+}
+
+a:focus, a:hover{
+    text-decoration: none;
+    color: white;
 }
