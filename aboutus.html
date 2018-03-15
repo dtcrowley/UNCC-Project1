@@ -4,35 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Project 1 Practice</title>
-    <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/images">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  
           
+  <title>Kiddie Korner Ratings</title>
 </head>
 <body>
-      
-<div class="row">
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
-          <span class="card-title">Card Title</span>
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center"><b>Kiddie Korner Ratings</b></a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+              <li><a href="index.html" class = "homeLink">Home</a></li>
+              <li><a href="contactus.html" class = "contactLink">Contact Us</a></li>
+              <li><a href="search.html" class = "searchLink">Search</a></li>
+            </ul>
         </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
+    </nav>
+    <br>
+    <div  class="container">
+      <h5 style="font-family: 'Indie Flower', cursive;">Mission Statement</h5>
+        <img src="assets/images/Mission50.png" id="missionPic" alt="Mission Statement"> 
+      <hr>
+      <p class="ratings-paragraph">Kiddie Korner Ratings is a site designed to help parents identify movies that are appropriate for
+          there family via the Motion Picture Association of America ratings system. It is used to rate a film's suitability for certain 
+          audiences based on its content. There are 5 ratings: G, PG, PG-13, R, NC-17. At Kiddie Korner we focus on movies that are G which 
+          are suitable for all ages, PG which requires Parental Guidance for material that might not be suitable for children, and the PG-13 
+          rating is for material that may be inappropriate for children under 13, but we recommend parents do what is best for their child &
+          household. </p>
+          <br>
+    </div>
+    <div>
+        <img src="assets/images/MPAA Ratings revised.png" class="ratings-image" alt="MPAA ratings chart"> 
+    </div> 
+    <br>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Kiddie Korner Ratings</h5>
+                    <p class="grey-text text-lighten-4">Kiddie Korner Ratings is a site designed to help parents identify movies that are appropriate for
+                        there family via the Motion Picture Association of America ratings system. It is used to rate a film's suitability for certain 
+                        audiences based on its content. There are 5 ratings: G, PG, PG-13, R, NC-17. At Kiddie Korner we focus on movies that are G which 
+                        are suitable for all ages, PG which requires Parental Guidance for material that might not be suitable for children, and the PG-13 
+                        rating is for material that may be inappropriate for children under 13, but we recommend parents do what is best for their child &
+                        household. </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                            <li><a class="grey-text text-lighten-3" href="search.html">Search</a></li>
+                            <li><a class="grey-text text-lighten-3" href="contactus.html">Contact Us</a></li>
+                        </ul>
+                </div>
+            </div>
+        <div class="row row-footer">
+          <div class="center-align"> 
+              <p class="center-align"> © 2018 Copyright Text</p>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-            
+    </footer>
+    <!-- FOR TESTING ONLY -TAKE OUT LATER -->
+    <!--<script>
+        $(document).ready(function(){
+            $(".searchLink").on('click', function(){
+                console.log('Heard click!')
+            });
+            $(".contactLink").on('click', function(){
+                console.log('Heard click!')
+            });
+        })
+    </script>-->
 </body>
 </html>
-
-
-

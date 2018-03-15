@@ -3,21 +3,23 @@ body {
     min-height: 100vh;
     flex-direction: column;
   }
-.page-footer {
-   width: 100%;
-   height: 30%;
-   margin-top: 1%;
+  .page-footer {
+    width: 100%;
+    height: 30%;
+    margin-top: 1%;
+    font-family: 'Indie Flower', cursive;
   }
-bannerRow{
-    margin: 40px; 
-}
-.center-align{
+  nav{
     background-color: lightcoral;
     margin: 0;
     height: 150px;
     padding: 61px 0px;
     font-family: 'Indie Flower', cursive;
     font-size: 55px;
+    
+  }
+bannerRow{
+    margin: 40px; 
 }
 .row1{
     text-align: center;
@@ -27,6 +29,20 @@ bannerRow{
 }
 .row2{
     align-content: center;
+    width: 50%;
+    margin-left: 400px;
+    margin: 0 auto;
+    width: 70%;
+    
+}
+.btn{
+    margin-bottom: 25px;
+    border-bottom: 50px;
+    float: left;
+}
+#search{
+    margin-bottom: 0px;
+    float: left;
 }
 .container1{
     text-align: center;
@@ -35,14 +51,14 @@ bannerRow{
 .nav-wrapper{
     margin: 0 auto;
     width: 70%;
+    height: 100px;
     font-family: 'Indie Flower', cursive;
-    
 }
 #search-bar{
     width: 25%;
     margin:auto;
     margin-top:10%;
-    margin-bottom:10%;
+    margin-bottom:0%;
 }
 .navButtons{
     text-align: center;
@@ -56,8 +72,89 @@ bannerRow{
     width: 50%;
     margin: auto;
 }
-a.brand-logo{
+.brand-logo.center{
     font-family: 'Indie Flower', cursive;
-    font-size: 55px;
+    font-size: 50px;
+    margin: 0 auto;
+    width: 70%;
+    height: 100px;
+    color: white;
+}
+#missionPic{
+    height: 575px;
+    width: 949px;
+    position: relative;
+}
+.ratings-image{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 75%;
+}
+.ratings-paragraph{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+.slider {
+    width: 1000px;
+    margin: auto;
+}
+.slider .indicators {
+    bottom: 60px;
+    z-index: 100;
+}
+.poster{
+    margin-left: 500px;
+}
+.gif-image{
+    width: 180px;
+    margin-right: 10px;
+    float: left;
+}
+.gif-rating{
+    font-size: 16px;
+    font-family: 'Indie Flower', cursive;
+    float: left;
+    margin-right: 5px;
+}
+#search-results{
+    font-family: 'Indie Flower', cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.movie-details, .movie-rating, .released, .time, .score{
+    text-align: center;
+}
 
+.link{
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    width: 20%;
+    height: 35px;
+    margin-bottom: 20px;
+    color: teal;
+}
+.link:hover{
+    background: lightcoral;
+}
+.panel-primary {
+    font-family: 'Indie Flower', cursive;
+}
+.panel-body {
+    font-size: 14px;
+}
+#thank-you-message{
+    font-family: 'Indie Flower', cursive;
+    color: teal;
+
+}
+#form-wrapper{
+    margin-top: 20px;
+}
+#search-instructions{
+    font-family: 'Indie Flower', cursive;
+    color: teal;
+    text-align: center;
 }

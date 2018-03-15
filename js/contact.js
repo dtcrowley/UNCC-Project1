@@ -1,17 +1,15 @@
 $(document).ready(function(){
-
+    $("#thank-you-message").hide();
   // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyBGSuTp59U20rAefcq2E8xt-n8-g2laQuw",
-        authDomain: "uncc-project1.firebaseapp.com",
-        databaseURL: "https://uncc-project1.firebaseio.com",
-        projectId: "uncc-project1",
-        storageBucket: "uncc-project1.appspot.com",
-        messagingSenderId: "963850276124"
-    };
- 
-    firebase.initializeApp(config);
-
+  var config = {
+    apiKey: "AIzaSyBGSuTp59U20rAefcq2E8xt-n8-g2laQuw",
+    authDomain: "uncc-project1.firebaseapp.com",
+    databaseURL: "https://uncc-project1.firebaseio.com",
+    projectId: "uncc-project1",
+    storageBucket: "uncc-project1.appspot.com",
+    messagingSenderId: "963850276124"
+  };
+  firebase.initializeApp(config);
     // Create a variable to reference the database
     var database = firebase.database();
 
@@ -38,8 +36,13 @@ $(document).ready(function(){
 
         database.ref().push(userComment);
 
-        name = $("#name-input").val("");
-        email = $("#email-input").val("");
-        comment = $("#comment-input").val("");
+        var postSubmit = $("#form-wrapper").hide();
+        var thankYou = $("<h1>").text("Thank you for your comment! We will respond to you as soon as possible.");
+        $("#thank-you-message").append(thankYou)
+        $("#thank-you-message").show();
+
+        // name = $("#name-input").val("");
+        // email = $("#email-input").val("");
+        // comment = $("#comment-input").val("");
     });
 });
