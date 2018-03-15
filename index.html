@@ -17,81 +17,102 @@
   <script type="text/javascript" src="js/materialize.min.js"></script>
   
           
-  <title>Kiddie Korner Ratings</title>
+  <title>Kiddie Korner Ratings - Main</title>
 </head>
 <body>
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo center">Logo</a>
+            <a href="#" class="brand-logo center">Kiddie Korner Ratings</a>
             <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
+                <li><a href="aboutus.html" class = "aboutLink">About Us</a></li>
+                <li><a href="contactus.html" class = "contactLink">Contact Us</a></li>
+                <li><a href="search.html" class = "searchLink">Search</a></li>
             </ul>
         </div>
     </nav>
         <div class="row2">
+          <h3 id="search-instructions">Type the name of a movie you would like to research into the search bar below!</h3>
             <form id="search-bar">
                 <div class="input-field">
-                    <input id="search" type="search" required>
-                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <input id="search" type="search" required placeholder="Search">
+                   <label class="label-icon" for="search"></i></label>
                     <i class="material-icons">close</i>
                 </div>
             </form>
+            <a class="btn">Search</a>
+             <!-- Dropdown Trigger -->
+            <!-- Dropdown Structure -->
+            <!-- <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="#!"class="center-align">"G"</a></li>
+                <li><a href="#!"class="center-align">"PG"</a></li>
+                <li><a href="#!"class="center-align">"PG-13"</a></li>
+            </ul> -->
         </div>
-        <div class="slider">
-            <ul class="slides">
+    <div class="slider">
+        <ul class="slides">
                 <li>
-                <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
+                    <a href="aboutus.html"><img src="assets/images/mission statement revised.png"> <!-- random image -->
+                    <div class="caption center-align">
+                    <!-- <h3>Our Mission</h3> -->
+                    <!-- <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
+                    </div>
+                </li>
+                <li>
+                <!-- <img src="assets/images/amazon revised.png"> random image -->
+                    <a href="https://www.amazon.com/" target="_blank"><img src="assets/images/amazon revised.png"></a>
                 <div class="caption center-align">
-                    <h3>Our Mission</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <!-- <h3>Amazon Link</h3> -->
+                    <!-- <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
                 </div>
+                </li>
+                 <li>
+                    <a href="https://www.rottentomatoes.com/" target="_blank"><img src="assets/images/rotten tomatoes revised.png"> <!-- random image -->
+                    <div class="caption center-align">
+                        <!-- <h3>Fandango Link</h3> -->
+                        <!-- <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
+                    </div>
                 </li>
                 <li>
-                <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-                <div class="caption left-align">
-                    <h3>Left Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div>
+                    <a href="https://www.fandango.com/" target="_blank"><img src="assets/images/fandango revised.png"> <!-- random image -->
+                    <div class="caption center-align">
+                    <!-- <h3>Rotten Tomatoes Link</h3> -->
+                    <!-- <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5> -->
+                    </div>
                 </li>
-                <li>
-                <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-                <div class="caption right-align">
-                    <h3>Right Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div>
-                </li>
-                <li>
-                <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-                <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div>
-                </li>
-            </ul>
+                </ul>
         </div>
         <div class="row">
+            <div class="col s3"><iframe src="http://www.youtube.com/embed/xB5ceAruYrI?enablejsapi=1&version=3&playerapiid=ytplayer"></iframe></div>
+            <div class="col s3"><iframe src="http://www.youtube.com/embed/xB5ceAruYrI?enablejsapi=1&version=3&playerapiid=ytplayer"></iframe></div>
+            <div class="col s3"><iframe src="http://www.youtube.com/embed/xB5ceAruYrI?enablejsapi=1&version=3&playerapiid=ytplayer"></iframe></div>
+            <div class="col s3"><iframe src="http://www.youtube.com/embed/xB5ceAruYrI?enablejsapi=1&version=3&playerapiid=ytplayer"></iframe></div>
         </div>
     </div>
     <footer class="page-footer">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Footer Content</h5>
-                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    <h5 class="white-text">Kiddie Korner Ratings</h5>
+                    <p class="grey-text text-lighten-4">Kiddie Korner Ratings is a site designed to help parents identify movies that are appropriate for
+                            there family via the Motion Picture Association of America ratings system. It is used to rate a film's suitability for certain 
+                            audiences based on its content. There are 5 ratings: G, PG, PG-13, R, NC-17. At Kiddie Korner we focus on movies that are G which 
+                            are suitable for all ages, PG which requires Parental Guidance for material that might not be suitable for children, and the PG-13 
+                            rating is for material that may be inappropriate for children under 13, but we recommend parents do what is best for their child &
+                            household.</p>
                 </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="aboutus.html">About Us</a></li>
-                        <li><a class="grey-text text-lighten-3" href="navigation.html">Navigation</a></li>
-                        <li><a class="grey-text text-lighten-3" href="contactus.html">Contact Us</a></li>
-                    </ul>
-                <div class="footer-copyright"> 
-                    © 2018 Copyright Text
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="aboutus.html">About Us</a></li>
+                            <li><a class="grey-text text-lighten-3" href="search.html">Search</a></li>
+                            <li><a class="grey-text text-lighten-3" href="contactus.html">Contact Us</a></li>
+                        </ul>
                 </div>
             </div>
+            <div class="row row-footer">
+                <div class="center-align"> 
+                    <p class="center-align"> © 2018 Copyright Text</p>
+                </div>
             </div>
         </div>
     </footer>

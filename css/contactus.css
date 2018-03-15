@@ -1,0 +1,15 @@
+.jumbotron {
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+}
+.panel-primary {
+    font-family: 'Indie Flower', cursive;
+}
+.panel-body {
+    font-size: 14px;
+}
+#thank-you-message{
+    font-family: 'Indie Flower', cursive;
+    color: teal;
+
+}
