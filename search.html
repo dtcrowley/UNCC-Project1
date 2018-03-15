@@ -22,7 +22,7 @@
 <body>
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo center">Kiddie Korner Ratings</a>
+            <a href="index.html" class="brand-logo center">Kiddie Korner Ratings</a>
             <ul id="nav-mobile" class="left hide-on-med-and-down">
                 <li><a href="index.html" class = "homeLink">Home</a></li>
                 <li><a href="aboutus.html" class = "aboutLink">About Us</a></li>
@@ -31,14 +31,15 @@
         </div>
     </nav>
     <div class="row2">
+        <h3 id="search-instructions">Type the name of a movie you would like to research into the search bar below!</h3>
         <form id="search-bar">
             <div class="input-field">
                 <input id="search" type="search" required placeholder="Search">
-                <label class="label-icon" for="search"></i></label>
+                <label class="label-icon" for="search"></label>
                 <i class="material-icons">close</i>
+                <button class="btn" type="submit">Search</button>
             </div>
         </form>
-        <a class="waves-effect waves-light btn searchLink">Search</a>
              <!-- Dropdown Trigger -->
     </div>
     <div id="search-results"></div>
