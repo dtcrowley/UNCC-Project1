@@ -280,4 +280,23 @@ a:focus, a:hover{
     .row{
         width: 100%;
     }
+    @media only screen and (min-width: 601px){
+        .container {
+            width: 60%;
+        }
+        .container {
+            /* margin: 0 auto; */
+            max-width: 800px;
+            width: 90%;
+        }
+         *:before, *:after {
+            -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+        }
+        user agent stylesheet
+        div {
+            display: block;
+        }
+    }
+
 }
