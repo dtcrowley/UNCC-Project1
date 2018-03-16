@@ -280,6 +280,9 @@ a:focus, a:hover{
     .row{
         width: 100%;
     }
+    #form-wrapper{
+        margin-left: 50px;
+    }
     @media only screen and (min-width: 601px){
         .container {
             width: 60%;
